@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <link type="image/png" rel="icon" href="/Crude.png">
+    <link rel="stylesheet" href="style.css">
+l
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>cruds</h2>
+            <p>Product Managment system</p>
+        </div>
+        <div class="input">
+            <input id="title" type="text" placeholder="title">
+            <input id="price" type="number" placeholder="price">
+            <input id="taxes" type="number" placeholder="taxes">
+            <input id="ads" type="number" placeholder="ads">
+            <input id="discount" type="number" placeholder="discount">
+            <span id="total">total : 0</span>
+            <input type="number" name="" id="count" placeholder="count">
+            <input type="text" name="" id="category" placeholder="category">
+        </div>
+        <button id="btn1">creat</button>
+        <div class="output">
+            <input type="text" name="" id="search" placeholder="search" >
+            <button id="searchTitle" onclick="seartitle()">search by Title</button>
+            <button id="searchCategory" onclick="searcategory()">search by category</button>
+<div id="deleteAll">deleteAll</div>         
+   <table id="table">
+                <thead>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>dicount</th>
+                    <th>total</th>
+                    <th>cantegory</th>
+                    <th>updat</th>
+                    <th>delet</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="java1.js"></script>
+ </body>
+
+</html>
+
